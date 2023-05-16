@@ -1,0 +1,5 @@
+export {default as About} from './about'
+export {default as Analytics} from './analytics'
+export {default as Booking} from './booking'
+export {default as Confirmed} from './confirmed'
+export {default as Contact} from './contact'
