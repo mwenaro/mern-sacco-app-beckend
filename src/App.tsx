@@ -4,7 +4,7 @@ function App(): ReactElement {
   return (
     <div className="bg-red-500  flex justify-center items-center">
       {/* <Home  /> */}
-      <h3>Helo there</h3>
+      <h3 className="text-white font-bold uppercase text-center">Helo there</h3>
     </div>
   );
 }
