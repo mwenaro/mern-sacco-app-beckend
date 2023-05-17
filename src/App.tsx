@@ -1,11 +1,8 @@
-import React, { type ReactElement } from 'react';
-
-function App(): ReactElement {
+function App() {
   return (
-    <div className="bg-red-500  flex justify-center items-center">
-      {/* <Home  /> */}
-      <h3 className="text-white font-bold uppercase text-center">Helo there</h3>
-    </div>
+    <>
+      <h3 className="text-white bg-red-400">hello there</h3>
+    </>
   );
 }
 

@@ -1,12 +1,6 @@
-module.exports = {
-  mode: 'jit',
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 }
